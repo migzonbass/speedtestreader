@@ -67,7 +67,7 @@ for image in files:
         print ("{} is not converted".format(image))
 
 
-#Grayscale image to TSV conversion
+#Grayscale image to CSV conversion
 
 image_dir = 'IMAGES' #Source folder 
 ocr_dir = 'csvresult' #Destination folder 
