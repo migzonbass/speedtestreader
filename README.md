@@ -4,7 +4,7 @@ Hello!
 Welcome to the Speedtest Reader of Ookla speedtests!
 
 What does it do?
-The speedtest reader reads the speedtest data from screenshots/images of the Ookla Speedtest app.
+The speedtest reader reads the speedtest data (specifically, the download and upload speeds) from screenshots/images of the Ookla Speedtest app.
 
 Installation:
 1. Anaconda must be installed in your system (works best in Linux)
