@@ -1,4 +1,4 @@
-# speedtestreader
+# Ookla Speedtest Reader
 Hello!
 
 Welcome to the Speedtest Reader of Ookla speedtests!
@@ -19,8 +19,20 @@ export TESSDATA_PREFIX='/usr/local/share/'
 
 How it works:
 1. The first part of the code is the image cropper, where the raw screenshots of the speedtests must be inside the 'RawImg' folder.
+
+![](Others/raw.jpg)
+
 2. The cropped images are placed in the 'IMAGES' folder. The cropped images consist of only the upper part of the screenshot which contains the Download and Upload speed, as well as the Ping, Jitter and Loss.
+
+![](Others/cropped.jpg)
+
 3. The next step is the conversion of the cropped images in 'IMAGES' folder into grayscale.
+
 4. The grayscale images are placed in the 'grayscaleresult' folder.
+
+![](Others/gray.jpg)
+
 5. The next step is where the OCR process will take. The grayscale images will undergo OCR using PyTesseract. The output will be in the form of a CSV file. 1 image = 1 CSV file result
 6. The CSV files are placed in the 'csvresult' folder.
+
+![](Others/csv.png)
